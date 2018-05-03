@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
 Path: /Users/yoyo/Library/Developer/Shared/Documentation/DocSets/com.philm.appledoctest.AppleDocTest.docset
-Time: 2018-04-17 06:44:23 +0000
+Time: 2018-04-17 11:23:59 +0000
