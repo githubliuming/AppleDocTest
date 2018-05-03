@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AppleDocTest"
   s.version      = "1.0.1"
-  s.summary      = "A short description of AppleDocTest."
+  s.summary      = "AppleDocTest是一个测试项目，测试提交自己写的公共开源库"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    AppleDocTest是一个测试项目，测试提交自己写的公共开源库。添加的描述
                    DESC
 
   s.homepage     = "https://github.com/githubliuming/AppleDocTest"
@@ -38,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT (example)"
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
