@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AppleDocTest"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "AppleDocTest是一个测试项目，测试提交自己写的公共开源库"
 
   # This description is used to generate tags and improve search results.
@@ -64,8 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+    s.platform     = :ios
+    s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
    s.ios.deployment_target = "5.0"
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+    s.documentation_url = 'http://www.lm1024.xyz'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
