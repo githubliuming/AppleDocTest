@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AppleDocTest"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "AppleDocTest是一个测试项目，测试提交自己写的公共开源库"
 
   # This description is used to generate tags and improve search results.
