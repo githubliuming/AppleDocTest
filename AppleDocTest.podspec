@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AppleDocTest"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "AppleDocTest是一个测试项目，测试提交自己写的公共开源库"
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AppleDocTest", "AppleDocTest/**/*.{h,m}"
-  s.exclude_files = "AppleDocTest/Exclude"
+  s.source_files  = "Pods/**/*.{h,m}"
+  s.exclude_files = "Pods/Exclude
+  "
 
- # s.public_header_files = "AppleDocTest/**/*.h"
+  s.public_header_files = "Pods/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
